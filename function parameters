@@ -1,0 +1,6 @@
+function getmilk(money){
+    var  moneyforbottles=money/1.5;
+    console.log("buy"+moneyforbottles+"bottles for milk")
+}
+
+getmilk(3);
