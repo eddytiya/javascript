@@ -1,8 +1,8 @@
 //program to find the number of bottles we can get if the cost of one bottle of milk is $1.5
 
 function getmilk(money){
-    var  moneyforbottles=money/1.5;
-    console.log("buy"+moneyforbottles+"bottles for milk")
+    var  moneyforbottles= math.floor(money/1.5);
+    console.log("buy"+moneyforbottles+"bottles for milk");
 }
 
 getmilk(3);
