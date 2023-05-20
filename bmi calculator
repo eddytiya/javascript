@@ -1,0 +1,6 @@
+function bmicalculator(weight,height){
+    var bmi = weight/(height*height);
+    return (bmi);
+}
+
+bmicalculator(65,1.8);
