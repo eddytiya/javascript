@@ -1,0 +1,11 @@
+function lifeInWeeks(age){
+    var yearsremaining=90 -age;
+    var days = yearsremaining*365;
+    var weeks = yearsremaining*52;
+    var years = yearsremaining*12;
+
+    console.log("you have " +days+" days "+weeks+" weeks "+years+" years left");
+    
+}
+
+lifeInWeeks(12);
