@@ -8,6 +8,11 @@ lovescore = Math.floor(lovescore) + 1;
 if (lovescore>70) { 
     alert("yout love score is " +lovescore+"% you are compatible" );
 }
+
+if(lovescore > 30 && lovescore <-70){
+    alert("yout love score is " +lovescore+"% you are idk what" );
+    
+}
 else{
     alert("yout love score is " +lovescore+"% you are not compatible");
 }
