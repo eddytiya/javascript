@@ -1,0 +1,10 @@
+var names=["Aditya","Arthur","Dutch","Michah","Hosea"];
+ console.log(names);
+
+//counting the no of items in the array
+console.log(names.length);
+
+//accessing the particular elements in the array
+
+console.log(names[0]);
+console.log(names[3]);
