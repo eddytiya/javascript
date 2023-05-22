@@ -9,7 +9,7 @@ if (lovescore>70) {
     alert("yout love score is " +lovescore+"% you are compatible" );
 }
 
-if(lovescore > 30 && lovescore <-70){
+if(lovescore > 30 && lovescore <=70){
     alert("yout love score is " +lovescore+"% you are idk what" );
     
 }
