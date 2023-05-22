@@ -1,0 +1,11 @@
+var guestlist=["Aditya","Arthur","Dutch","Michah","Hosea"];
+var guestname=prompt("what is your name");
+
+if (guestlist.includes(guestname)) {
+    alert("welcome");
+}
+else{
+    alert("sorry tour name is not in the list");
+}
+
+    
